@@ -2,7 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: lightblue;
+  background-image: url("bg.png");
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
