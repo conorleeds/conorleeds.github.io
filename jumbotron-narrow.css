@@ -2,15 +2,33 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-image: url("bg.png");
+  #background-image: url("Stripe Blurred Backgrounds-8.jpg");
+  #background-color: #000033;
 }
+
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 100%;
+	
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+	
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
 .marketing,
 .footer {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 /* Custom page header */
@@ -46,6 +64,7 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+  background-color: white;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -54,7 +73,7 @@ body {
 
 /* Supporting marketing content */
 .marketing {
-  margin: 40px 0;
+  margin: 0px 0;
 }
 .marketing p + h4 {
   margin-top: 28px;
@@ -68,6 +87,10 @@ body {
   .footer {
     padding-right: 0;
     padding-left: 0;
+  }
+  img.bg {
+	#left: 50%;
+    #margin-left: -768px;   /* 50% */
   }
   /* Space out the masthead */
   .header {
